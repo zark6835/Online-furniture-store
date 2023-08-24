@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.min.css" />
+  </head>
+  <body>
+    <header class="header container">
+      <div class="header-center">
+        <ul class="header-navigation">
+          <a class="header-navigation__item castom" href="./index.html">Home</a>
+          <a class="header-navigation__item castom" href="./products.html">Products</a>
+          <a class="header-navigation__item castom" href="./about.html">About</a>
+        </ul>
+        <a class="header-logo castom" href="./index.html">comfy</a>
+      </div>
+      <div class="header-basket__wrapper">
+        <p class="header-items">0</p>
+        <img class="header-basket" src="./images/basket-dark.png" alt="" />
+      </div>
+      <div class="basket-wrapper">
+        <div class="basket-content">
+          <img class="basket-cross" src="./images/cross.png" alt="" />
+          <h2 class="basket-bag">Your Bag</h2>
+          <ul class="basket-list">
+            
+          </ul>
+        </div>
+        <form class="basket-total" onsubmit="return false">
+          <p class="basket-sum">Total: 0</p>
+          <button class="basket-btn">CHECKOUT</button>
+        </form>
+      </div>
+    </header>
+
+    <div class="crumbs-wrapper">
+      <p class="crumbs-style container">Home / Products</p>
+    </div>
+
+    <main class="main-wrapper container">
+      <div class="main-navigation">
+        <input class="main-input__search" type="text" placeholder="Search..."/>
+        <ul class="main-gap">
+            <h4 class="main-category">Category</h4>
+          <li class="main-card__name main-category__style" id="ALL">ALL</li>
+          <li class="main-card__name main-category__style" id="Beds">Beds</li>
+          <li class="main-card__name main-category__style" id="Sofas">Sofas</li>
+          <li class="main-card__name main-category__style" id="Wall">Wall</li>
+        </ul>
+        <form class="main-gap">
+          <h4 class="main-category">Price</h4>
+          <input class="main-slider" name="" id="flying" type="range" min="6627" max="61000" value="61000" step="10">
+          <output class="main-card__name  main-price" id="price" for="" name="">price: 61000грн</output>
+        </form>
+      </div>
+      <ul class="main-card__list">
+        
+      </ul>
+    </main>
+
+    <script src="./js/main.js">
+
+        
+    </script>
+  </body>
+</html>
